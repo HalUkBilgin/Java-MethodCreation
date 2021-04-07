@@ -1,0 +1,233 @@
+
+    1.Soru:
+     /*  Problem Tanımı
+            Verilen iki sayının kombinasyonunu bulan kodu yazınız.
+            Hatırlatma C(n,r) = n! / (r!(n-r)!)
+
+            Verilen iki sayının permütasyonunu bulan kodu yazınız.
+            Hatırlatma P(n,r) = n! / (n-r)!
+
+            Ekran Çıktısı
+            Birinci sayıyı giriniz: 15
+            Ikinci sayıyı giriniz: 4
+            Kombinasyon: 1365
+            permütasyon: 32760
+
+            Birinci sayıyı giriniz: 5
+            Ikinci sayıyı giriniz: 3
+            Kombinasyon: 10
+            permütasyon: 60
+          */
+
+    2.Soru:
+    /* Problem Tanımı :
+             Basit 4 işlem yapan bir hesap makinesi kodlayınız....
+             Kullanicidan yapacagi islemi islem sembolu ile secmesini saglayalinız.
+             Kullanicidan iki sayi girmesini isteyiniz.
+             Girilen iki sayi ve secilen isleme gore dogru sonucu ekrana yazdirınız.
+           */
+
+    3.Soru:
+    /*
+            Interview sorusu...
+            Verilen bir metindeki harflerin frekansını(tekrar sayısı) bulup yazdıran bir METHOD yazınız.
+            (Büyük harf-küçük harf ayrımına dikkat ediniz)
+            Test data:
+            Input = AAABBCDD
+            output = A3B2C1D2
+                    */
+
+    4.Soru:
+    /*
+            Problem Tanımı :
+            kullanıcıdan 5 elemanlı bir dizi oluşturup tek
+            elemanları 0 ile çift elemanları 1 değiştirip yazdıran bir method yazınız.
+            */
+
+    5.Soru:
+    /*
+                Problem Tanımı :
+                Kullanıcıdan alınan  bir sayinin mükemmel olup olmadiğini bulan bir program yaziniz.
+                Mükemmel sayi : bir sayinin kendisi hariç bölenlerinin toplamı, kendisine eşitse o sayi mükemmeldir.
+                ORNEK:
+                INPUT     : 6
+                OUTPUT : 1,2,3
+                              1+2+3 = 6 = 6 (Mükemmel)
+                */
+
+    6.Soru:
+    /*
+            Problem tanımı :
+            Bir String içinde kaç kelime olduğunu yazdıran bir method yazınız.
+           Test Data:
+           Input the string: The quick brown fox jumps over the lazy dog.
+     	   Expected Output: Number of words in the string: 9
+             */
+
+    7.Soru:
+    /*
+            Problem tanımı :
+            Bir String içindeki tüm karakterleri en fazla bir kez yazdıran parametreli bir method yazınız.
+            Test Data:
+            input: "aabbcccccddddaaa"
+            output: abcd
+         */
+
+    8.Soru:
+    /*
+        Problem Tanımı :
+        int array[][]={{7,12,97,23},{543,23,675},{2},{2,33,6,3,7}};
+        verilen Array icinde
+        --> kac tane sayi oldugunu return eden  methodu yazdiriniz
+        --> kac tane tek sayi oldugunu return eden methodu yazdiriniz
+        --> kac tane cift sayi oldugunu return eden methodu yazdiriniz
+        -->en buyuk sayi
+        -->en kucuk sayi
+        */
+
+    9.Soru:
+    /*
+        Problem tanımı:
+        Kullanıcıdan aldığınız bir String'deki kelimeleri sondan başa doğru yerleştiren
+        String parametreli return type li reverseWord isminde bir method yazınız
+
+         Test DAta :
+        İnput : Allah Javacı arkadaşlara  zihin açıklığı versin
+        Output : versin açıklığı zihin arkadaşlara Javacı Allah
+         */
+
+    10.Soru:
+    /*
+            Problem Tanımı :
+            EvenOddNums isminde bir method oluşturun.
+            Bu yöntem String olan bir parametreyi kabul etsin.
+            Bu String'de 1234567890 gibi 10 haneli sayılar olacak.
+            Sayıların her basamağındaki rakam çiftse toplayın, tekse çıkartın.
+            toplam sonucu yazdırın.
+            İpucu:Sayılar işlemleri yapabilmeniz için, basamakları tam sayıya dönüştürmeniz gerekiyor.
+
+            For example :
+            String =  "6678421312"
+            6+6-7+8+4+2-1-3-1+2
+            sonuç 16 olmalı
+         */
+
+    11.Soru:
+    /*
+            Problem Tanımı:
+            plusOne adında bir method oluşturun.
+            Parametre olarak int Array alır.
+            Rakamlar pozitif olmalıdır ve ilk basamak 0 olamaz.
+            Yazdığınız rakamlar bir bütün olarak ele alınacaktır.
+            Orta basamağa 1 ekleyin.
+
+            Örnek 1:
+            Girdi:: [1,2,3]
+            Çıktı: [1,3,3]
+            Açıklama:Bu sayı dizisi 133'ü temsil eder.
+
+            Örnek 2:
+            Input: [4,3,5,2,1]
+            Çıktı: [4,3,6,2,1]
+            Açıklama: Bu sayı dizisi 43621'i temsil eder.
+            */
+
+    12.Soru:
+    /*
+            Problem Tanımı :
+            powerOfThree isminde bir method oluşturun.
+            Parametre olarak int
+            Return tipi boolean
+            Bir tamsayı verildiğinde, 3 üssü olup olmadığını teyit edin. 3'ün üssü(kuvveti) ise true, değilse false döndürün.
+            Örnek 1:
+            Girdi: 27
+            Çıktı: true
+            Açıklama: 3*3*3 =27
+            Sonuç= true
+
+            Örnek 2:
+            Girdi: 0
+            Çıktı: false
+            Örnek 3:
+            Girdi: 9
+            Çıktı: true
+            Açıklama: 3*3 = 9
+            Sonuç= true
+
+            Örnek 4:
+            Girdi: 45
+            Çıktı:: false
+            Açıklama: 3*3*3*3 =81
+            Sonuç= false
+            45, 3ün üssü (kuvveti) değildir.
+         */
+
+    13.Soru:
+    /*
+        Problem Tanımı:
+        addDigits isminde bir method oluşturun.
+        Parametresi int
+        Return tipi de int
+        Pozitif int değerler ver ve en son sonuç tek basamaklı çıkana kadar basamakları birbiriyle topla.
+        Tek basamaklı çıktığında, döndürün
+
+        Örnek1:
+        Girdi 38
+        Çıktı: 2
+        Açıklama: İşlemler şöyle olacak: 3 + 8 = 11, 1 + 1 = 2.
+                     2 , tek basamaklı olduğundan, bunu döndürün.
+         */
+    14.Soru:
+    /*
+                Problem Tanımı :
+                parametre olarak Integer Arraylist alan ve return type int olan hillNum isminde br method yazınız
+                methodda kendinden önceki sayıdan küçük kendinden sonrakinden büyük olan sayıyı yazdırsın
+                Test data:
+                input : ArrayList 5,4,6,2,1 iken
+                output : 2
+                2; 6 dan küçük 1 den büyük
+                 */
+    15.Soru:
+    /*
+            Problem Tanımı :
+            getSum isminde bir method oluşturun.
+            Parametresi ArrayList'tir.
+            Dizideki tüm $ ları kaldır ve tüm sayıları topla
+            return yaptğımız veri tipi 'int' olmalıdır.
+            sonuç 0'dan küçükse, -1 yazdırın.
+
+            Örnek1:
+            ArrayList = $13, $15, $20
+            Cevap = 48 olmalı
+
+            Örnek 2 :
+            ArrayList= $-13, $0, $0
+            Cevap = -1 olmalı.
+             */
+
+    16.Soru:
+    /*
+            Problem Tanımı:
+            isUnique adında bir method oluşturun.
+            Parametre olarak int array alır.
+             ve bu dizideki değerlerin benzersiz olup olmadığını gösteren bir boolean değeri döndürür.
+             (benzerlik yoksa true, var ise false).
+            örneğin, list isminde bir array'imiz varsa,
+            int[] list = {3, 8, 12, 2, 9, 17, 43, -8, 46, 203, 14, 97, 10, 4};
+            Bu listede tekrarlanan eleman olmadığı için sonuç true dönmelidir.
+
+            int[] list = {4, 7, 2, 3, 9, 12, -47, -19, 308, 3, 74};
+            Bu listede eleman 3, iki tane olduğu için sonuç false dönmelidir.
+                 */
+
+    17.Soru:
+    /*
+            Problem Tanımı :
+            farklı 4 öğrencinin sırasıyla 6,4,3 ve 5 yazılı notlarının ortalamasını
+            yazdıran parametreli method yazınız
+             */
+
+
+
+
+
